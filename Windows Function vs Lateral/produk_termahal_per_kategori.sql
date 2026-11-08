@@ -11,3 +11,4 @@ WHERE rnk = 1;
 
 
 -- Tidak perlu join, yowes langsung aja pake windows funtion (lebih natural) 
+-- Karena Lateral lebih dekat dgn JOIN 
