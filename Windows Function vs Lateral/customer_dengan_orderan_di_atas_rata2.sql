@@ -8,9 +8,9 @@ WITH nilai_transaksi_customers AS (
         p.product_name, 
         (o.quantity * p.price) AS nilai_transaksi
     FROM customers c 
-        JOIN ON orders o 
+        JOIN orders o 
             ON o.customer_id = c.customer_id
-        JOIN ON products p 
+        JOIN products p 
             ON o.product_id = p.product_id 
 ),
 
